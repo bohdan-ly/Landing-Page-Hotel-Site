@@ -1,0 +1,17 @@
+.main-nav {
+  &__list {
+    display: flex;
+
+    &>* {
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &__item {
+    font-size: 14px;
+    text-transform: capitalize;
+
+  }
+}

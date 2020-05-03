@@ -1,0 +1,17 @@
+.header-main {
+  .container {
+    display: flex;
+    align-items: center;
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+
+      &__toxin {
+        padding-left: 12.5px;
+      }
+    }
+  }
+
+
+}
